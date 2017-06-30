@@ -24,14 +24,17 @@
  */
 "cpu_threads_conf" : 
 [
-	{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
-	{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 1 },
-	{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 2 },
-	{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 3 },
-	{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 4 },
-	{ "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 5 },
-	{ "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 6 },
+   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
+   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 1 },
+   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 2 },
+   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 3 },
+   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 4 },
+   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 5 },
+   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 6 },
+   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 7 },
 ],
+
+
 /*
  * LARGE PAGE SUPPORT
  * Lare pages need a properly set up OS. It can be difficult if you are not used to systems administation,
@@ -94,7 +97,7 @@
  */
 "use_tls" : true,
 "tls_secure_algo" : true,
-"tls_fingerprint" : "SHA256:ediH8NNOw3xPeAHY0prTNYp6BV4W0n8bcaDYCnMnoL4=",
+"tls_fingerprint" : "",
 
 /*
  * pool_address	  - Pool address should be in the form "pool.supportxmr.com:3333". Only stratum pools are supported.
@@ -103,7 +106,7 @@
  */
 "pool_address" : "pool.supportxmr.com:9000",
 "wallet_address" : "42tyvLxdZ2ahTkftTMZzx1EbSDfiathtU8NHs2TrHWNPHQjCdnnAJU8hdB4fSKpaCd4i5ZvpiSrPLegXpdsb9bMmJM9kv3T",
-"pool_password" : "id:danilobgrs@gmail.com",
+"pool_password" : "ID:danilobgrs@hotmail.com",
 
 /*
  * Network timeouts.
