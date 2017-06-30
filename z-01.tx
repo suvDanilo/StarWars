@@ -97,7 +97,7 @@
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "pool.supportxmr.com:9000",
+"pool_address" : "pool.supportxmr.com:5555",
 "wallet_address" : "42tyvLxdZ2ahTkftTMZzx1EbSDfiathtU8NHs2TrHWNPHQjCdnnAJU8hdB4fSKpaCd4i5ZvpiSrPLegXpdsb9bMmJM9kv3T",
 "pool_password" : "ID:danilo.borges.br@gmail.com",
 
